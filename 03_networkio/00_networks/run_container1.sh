@@ -1,1 +1,7 @@
-docker run --rm -ti --net my-network --name container1 ubuntu:netcat bash
+docker run 
+    --rm \
+    --net my-network \
+    --name container1 \
+    -it \
+    ubuntu:netcat \
+    bash
