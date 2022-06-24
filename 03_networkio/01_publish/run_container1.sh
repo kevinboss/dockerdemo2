@@ -1,0 +1,1 @@
+docker run --rm -ti -p 1234:1234 --name container1 ubuntu:netcat bash
