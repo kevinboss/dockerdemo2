@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  receiver:
+    image: ubuntu:netcat
+    volumes:
+      - my-vol_compose:/data
+    stdin_open: true
+    tty: true 
+  transmitter:
+    image: ubuntu:netcat
+    depends_on: 
+    - receiver
+    stdin_open: true
+    tty: true
+volumes:
+  my-vol_compose:
+    external: true

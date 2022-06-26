@@ -1,5 +1,0 @@
-In Container 2:
-nc -lp 1234
-
-On host:
-nc localhost 1234

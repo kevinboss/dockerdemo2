@@ -1,5 +1,0 @@
-In Container 2:
-nc -lp 1234
-
-In Container 1:
-nc container2 1234

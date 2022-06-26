@@ -2,6 +2,5 @@ docker run \
     --rm \
     -d \
     -p 5432:5432 \
-    -it \
-    --name dockerdemo \
+    --name container_dockerfile \
     dockerdemo:latest
