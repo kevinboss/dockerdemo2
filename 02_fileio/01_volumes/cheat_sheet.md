@@ -3,6 +3,7 @@
 1. create volume via *create_volume.sh*
 2. run container using volume via *run_contaner.sh*
 3. in container_volumes:
+   mkdir data
    touch /data/file.txt
    exit
 4. start container_volumes
