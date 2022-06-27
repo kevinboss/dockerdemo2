@@ -20,11 +20,6 @@
     mkdir /data
     touch /data/file.txt
     exit
-12. start container_directory
-13. attach container_directory
-14. in container_directory:
-15. ls /data -> file noch da
-    exit
-16. rm container_directory
-17. run container using volume via *run_container.sh*
-18. ls /data -> file noch da
+12. rm container_directory
+13. run container using volume via *run_container.sh*
+14. ls /data -> file noch da

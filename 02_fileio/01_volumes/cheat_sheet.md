@@ -6,13 +6,8 @@
    mkdir data
    touch /data/file.txt
    exit
-4. start container_volumes
-5. attach container_volumes
+4. rm container_volumes
+5. run container using volume via *run_container.sh*
 6. in container_volumes:
-   ls /data -> file noch da
-   exit
-8. rm container_volumes
-9. run container using volume via *run_container.sh*
-10. in container_volumes:
     ls /data -> file noch da
-11. volume inspect my-vol -> details zu volumen
+7. volume inspect my-vol -> details zu volumen
