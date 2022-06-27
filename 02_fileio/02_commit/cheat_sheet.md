@@ -7,6 +7,7 @@
 3. commit container_commit commited:withfile
 4. in container_commit:
    exit
-5. run container using volume via *run_container_commited.sh*2. 
+5. rm container_commit
+5. run container using volume via *run_container_commited.sh*
 6. in container_commit_withfile:
    ls /data -> file noch da
