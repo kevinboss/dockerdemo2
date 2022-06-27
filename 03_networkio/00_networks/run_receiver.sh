@@ -1,7 +1,7 @@
 docker run 
     --rm \
     --net my-network \
-    --name container_networks_2 \
+    --name receiver \
     -it \
     ubuntu:netcat \
     bash
