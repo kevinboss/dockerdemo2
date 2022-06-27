@@ -15,7 +15,7 @@
 8. ls /data -> file ist weg
 9. rm container_directory
 
-10. run container using volume via *run_contaner.sh*
+10. run container using volume via *run_container.sh*
 11. in container_directory:
     mkdir /data
     touch /data/file.txt
@@ -26,5 +26,5 @@
 15. ls /data -> file noch da
     exit
 16. rm container_directory
-17. run container using volume via *run_contaner.sh*
+17. run container using volume via *run_container.sh*
 18. ls /data -> file noch da
